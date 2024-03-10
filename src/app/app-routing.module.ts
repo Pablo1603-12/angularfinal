@@ -4,7 +4,7 @@ import { HomePageComponent } from './componentes/home-page/home-page.component';
 import { ProductListComponent } from './componentes/product-list/product-list.component';
 import { ShoppingCartComponent } from './componentes/shopping-cart/shopping-cart.component';
 import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
-import { CategoriesComponent } from './componentes/chield/categories/categories.component';
+import { CategoriesComponent } from './componentes/categories/categories.component';
 
 const routes: Routes = [
   { path: '', component: HomePageComponent }, // Ruta para la página de inicio

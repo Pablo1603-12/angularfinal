@@ -13,7 +13,7 @@ import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { HttpClientModule } from '@angular/common/http';
 import { UsuariosComponent } from './componentes/usuarios/usuarios.component';
-import { CategoriesComponent } from './componentes/chield/categories/categories.component';
+import { CategoriesComponent } from './componentes/categories/categories.component';
 
 @NgModule({
   declarations: [
