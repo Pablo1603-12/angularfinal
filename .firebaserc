@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tienda-b94c5"
+  },
+  "targets": {
+    "tienda-b94c5": {
+      "hosting": {
+        "finalAngular": [
+          "tienda-b94c5"
+        ]
+      }
+    }
+  }
+}

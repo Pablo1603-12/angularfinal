@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Carrito de Compras</h2>
+        <div *ngIf="cartItems.length === 0" class="alert alert-info" role="alert">
+          No hay productos en el carrito.
+        </div>
+        <div *ngFor="let item of cartItems" class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img [src]="item.product.imageUrl" class="card-img" alt="Product Image">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">{{ item.product.name }}</h5>
+                <p class="card-text">{{ item.product.price | currency }}</p>
+                <button class="btn btn-danger" (click)="removeFromCart(item)">Eliminar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
